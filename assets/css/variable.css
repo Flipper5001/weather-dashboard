@@ -1,0 +1,10 @@
+:root {
+    --header-color-primary: #3262aa;
+    --header-color-secondary: #5748ad;
+    --card-color-primary: rgb(45, 55, 109);
+    --color-white: #ffffff;
+    --color-black: #000; 
+    --color-favorable: rgb(8, 129, 8);
+    --color-moderate: orange;
+    --color-severe: rgb(207, 23, 23);
+}
