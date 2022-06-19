@@ -211,5 +211,5 @@ function generateCards(weatherData){
     weatherStatsEl.classList.remove('none');
 };
 
-// when page is refreshed show search history / if any
+// when page is refreshed show search history / if searched prior
 generateSearchHistory();
