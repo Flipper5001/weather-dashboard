@@ -182,7 +182,7 @@ function generateCards(weatherData){
 
         // date
         const h3 = document.createElement('h3');
-        const date = moment(weatherData.daily[day].dt, 'X').format('(DD/MM/YYYY)');
+        const date = moment(weatherData.daily[day].dt, 'X').format('DD/MM/YYYY');
         h3.setAttribute('class','card-list-item font-weight-bold');
         h3.textContent = date;
         section.appendChild(h3);
