@@ -1,0 +1,32 @@
+/* Reset CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  vertical-align: baseline;
+}
+  
+html {
+    height: 100%;
+}
+  
+body {
+    min-height: 100%;
+    line-height: 1;
+}
+  
+input, select, option, optgroup, textarea, button,
+pre, code {
+    font-family: inherit;
+}
+  
+ol, ul, li {
+    list-style: none;
+}
+
+hr {
+    background-color: #000;
+    height: 1px;
+}
