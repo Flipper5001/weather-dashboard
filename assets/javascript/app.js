@@ -123,10 +123,10 @@ function createIcon(weatherData, h1){
     const img = document.createElement('img');
     img.setAttribute('class','icon');
     if (h1 === undefined){
-        img.setAttribute('src','http://openweathermap.org/img/w/' + weatherData.daily[day].weather[0].icon + '.png');
+        img.setAttribute('src','https://openweathermap.org/img/w/' + weatherData.daily[day].weather[0].icon + '.png');
         section.appendChild(img);
     } else {
-        img.setAttribute('src','http://openweathermap.org/img/w/' + weatherData.current.weather[0].icon + '.png');
+        img.setAttribute('src','https://openweathermap.org/img/w/' + weatherData.current.weather[0].icon + '.png');
         h1.appendChild(img);
         todayForecast.appendChild(h1);
     };
