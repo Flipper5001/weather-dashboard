@@ -5,7 +5,7 @@ const searchHistory = document.getElementById('past-results');
 const searchForm = document.getElementById('search');
 const userInput = document.getElementById('user-input');
 const errorOccured = document.querySelector('.error');
-const apiKey = '2beef0ef71607729929c8839335a46a9';
+const apiKey = config.API;
 
 // Fetch call the One Call API
 function getOneCallAPI(lat, lon){
