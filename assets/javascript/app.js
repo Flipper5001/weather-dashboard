@@ -25,6 +25,7 @@ function getLatLon (cityName){
         }
         return response.json();
     })
+    // run one call
     .then(function(weatherData){
         return getOneCallAPI(weatherData.coord.lat, weatherData.coord.lon);
     });
